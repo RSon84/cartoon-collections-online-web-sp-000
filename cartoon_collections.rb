@@ -1,6 +1,8 @@
 def roll_call_dwarves(dwarves)# code an argument here
-  dwarves.each_with_index |dwarf|
-  puts dwarf# Your code here
+  i = 0 
+  while i < array.length 
+    puts "#{i + 1}. #{array[i]}"
+    i += 1 
 end
 end
 
